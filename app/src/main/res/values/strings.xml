@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mmuta</string>
+    <string name="nums_text">numbers</string>
+    <string name="phrases_text">phrases</string>
+    <string name="fam_text">family</string>
+    <string name="objs_text">objects</string>
+    <string name="nums_label">Numbers</string>
+    <string name="phrases_label">Phrases</string>
+    <string name="fam_label">Family</string>
+    <string name="objs_label">Objects</string>
+</resources>

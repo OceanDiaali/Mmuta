@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff0"
+    tools:context="ng.insitu.mmuta.GoToNumbers">
+
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        android:maxHeight="85dp"
+        android:maxWidth="34dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:id="@+id/num1"
+       android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/two"
+        android:maxHeight="85dp"
+        android:maxWidth="34dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:id="@+id/num2"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="two"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/img3"
+        android:background="#ffa500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/three"
+        android:maxHeight="85dp"
+        android:maxWidth="34dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:id="@+id/num3"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="three"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/img4"
+        android:background="#ffa500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/four"
+        android:maxHeight="85dp"
+        android:maxWidth="34dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:id="@+id/num4"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="four"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/five"
+        android:maxHeight="85dp"
+        android:maxWidth="34dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:id="@+id/num5"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="five"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+</LinearLayout>
